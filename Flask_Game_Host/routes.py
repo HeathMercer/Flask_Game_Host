@@ -1,6 +1,5 @@
 #!/usr/bin/env python -B
 import sys
-import awsgi 
 sys.dont_write_bytecode = True
 from flask import Flask, render_template
 from chess_engine import Engine
@@ -74,5 +73,5 @@ def play_pinball():
 
    # return redirect('/')
 
-def lambda_handler(event, context):
-  return awsgi.response(app, event, context, base64_content_types={"image/png"})
+if __name__ == '__main__':
+  app.run(debug=True)
