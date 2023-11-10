@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #312d2d;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #150031;
+}
+
+
+header {
+  background-color: #1f1c1c;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
+}
+
+header h1.logo {
+  margin: 5px;
+  font-size: 1.5em;
+  color: #dda2ab;
+  text-transform: uppercase;
+  float: left;
+}
+
+header h1.logo:hover {
+  color: #dda2ab;
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#scoreboard_container {
+  position: fixed;
+  top: 75px;
+  right: 20px;
+  background: #191f19; 
+  padding: 10px;
+  border-radius: 5px; 
+  box-shadow: 0 0 10px #191f19;
+}
+/*title div class*/
+div.title {
+  padding: 0px 0 0px 0;
+  background-color: #1f1c1c;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+table.leaderboard {
+  width: 300px;
+  color: #dda2ab;
+  font-size: 1.2em;
+  float: right;
+  text-align: left;
+  background-color: #191f19;
+  border: 1px solid #404140fe;
+  border-radius:6px;
+  min-width: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th{
+  border: 1px solid #484646fe;
+  border-collapse: collapse;
+  padding: 12px 15px;
+}
+tr:nth-child(even) {
+  background-color: #312e2e;
+}
+td {
+  border: 1px solid #484646fe;
+  border-collapse: collapse;
+  padding: 12px 15px;
+}
+
+h2 {
+  font-size: 3em;
+  color: #dda2ab;
+  margin-top: 0px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+
+h4 {
+  font-size: 2em;
+  color: #dda2ab;
+  margin-top: 0px;
+  text-align: center;
+  letter-spacing: -2px;
+
+}
+
+/*menu bar formatting*/
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline;
+  text-align: left;
+}
+
+.menu li+li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  color: #dda2ab;
+  text-decoration: none;
+}
+
+#board {
+  padding: 10px;
+  max-width: 60%;
+  margin: -50px auto 0;
+}
