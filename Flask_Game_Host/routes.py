@@ -74,4 +74,8 @@ def play_pinball():
    # return redirect('/')
 
 if __name__ == '__main__':
+<<<<<<< HEAD
   app.run(debug=True)
+=======
+  app.run(debug=True)
+>>>>>>> 9f570b3d46df480735833bc678e15d9bc7a4cc51
