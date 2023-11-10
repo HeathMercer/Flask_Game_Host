@@ -74,5 +74,5 @@ def play_pinball():
 
    # return redirect('/')
 
-def lambda_handler(event, context):
-  return awsgi.response(app, event, context, base64_content_types={"image/png"})
+if __name__ == '__main__':
+  app.run(debug=True)
