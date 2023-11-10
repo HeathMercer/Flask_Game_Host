@@ -1,6 +1,5 @@
 #!/usr/bin/env python -B
 import sys
-import awsgi 
 sys.dont_write_bytecode = True
 from flask import Flask, render_template
 from chess_engine import Engine
